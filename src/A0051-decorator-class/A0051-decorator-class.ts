@@ -1,3 +1,4 @@
+// forma de chamar o decorator é colocando o '@function' antes da criação da classe
 @decorator
 export class Animal {
   constructor(public nome: string, public cor: string) {}
